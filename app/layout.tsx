@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { QueryProvider } from "@/components/providers/query-provider";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,8 +35,8 @@ export default function RootLayout({
         "antialiased",
         geistSans.variable,
         geistMono.variable,
-        "font-sans",
         inter.variable,
+        "font-sans",
       )}
       suppressHydrationWarning
     >
