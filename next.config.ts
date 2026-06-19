@@ -4,6 +4,8 @@ const nextConfig: NextConfig = {
   experimental: {
     optimizePackageImports: ["@phosphor-icons/react"],
   },
+
+  allowedDevOrigins: ["zigzagged-crumpled-endearing.ngrok-free.dev"],
 };
 
 export default nextConfig;
